@@ -3,7 +3,6 @@ matching virus DNA nucleotides from phred scores. Parallelised with CUDA
 
 ### Notes
 This project was run on a NUS slurm cluster which provided access to NVIDIA GPUs as part of a parallel computing course, so it is difficult to replicate on a personal laptop. However, the main logic is in this repo!
-.
 
 ### How it works
 Essentially a brute force algorithm that does the following:
