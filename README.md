@@ -2,8 +2,10 @@
 matching virus DNA nucleotides from phred scores. Parallelised with CUDA
 
 ### Notes
-This project and its test cases were run on a slurm cluster, so it is difficult to replicate on a personal laptop. However, the main logic is in this repo!
+This project was run on a NUS slurm cluster which provided access to NVIDIA GPUs, so it is difficult to replicate on a personal laptop. However, the main logic is in this repo!
+The kseq folder and common.cc was provided as starter code as part of a parallel computing course.
 
+### How it works
 Essentially a brute force algorithm that does the following:
 
 ```python
