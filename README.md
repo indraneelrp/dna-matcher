@@ -20,6 +20,7 @@ for every sample:
          update best match 
          append to results once all done
 ```
+see **kernel_skeleton.cu**<br><br>
 
 **Parallelisation strategy**:<br>
 Each block handles 1 sample, each thread in a block handles 1 signature
